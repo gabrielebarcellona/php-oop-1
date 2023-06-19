@@ -14,8 +14,11 @@ class Movie
         $this->date = $date;
     }
 
-    public function GetTitle()
+    public function GetFilm()
     {
         return $this->title;
+        return $this->generes;
+        return $this->protagonist;
+        return $this->date;
     }
 }
