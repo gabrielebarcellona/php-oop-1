@@ -6,16 +6,16 @@ class Movie
     public $protagonist;
     public $date;
 
-    public function __construct($title, $generes, $protagonist,$date)
+    public function __construct($title, $generes, $protagonist, $date)
     {
-        $this->$title = $title;
-        $this->$generes = $generes;
-        $this->$personages = $personages;
-        $this->$date = $date
+        $this->title = $title;
+        $this->generes = $generes;
+        $this->protagonist = $protagonist;
+        $this->date = $date;
     }
 
     public function GetTitle()
     {
-        return $this->title ,
+        return $this->title;
     }
 }
