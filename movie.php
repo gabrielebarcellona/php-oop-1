@@ -1,16 +1,21 @@
 <?php
 class Movie
 {
-    public $generes;
     public $title;
-    public $description;
-    public $personages;
+    public $generes;
+    public $protagonist;
+    public $date;
 
-    public function __construct($generes, $title, $description, $personages)
+    public function __construct($title, $generes, $protagonist,$date)
     {
-        $this->$generes = $generes;
         $this->$title = $title;
-        $this->$description = $description;
+        $this->$generes = $generes;
         $this->$personages = $personages;
+        $this->$date = $date
+    }
+
+    public function GetTitle()
+    {
+        return $this->title ,
     }
 }
