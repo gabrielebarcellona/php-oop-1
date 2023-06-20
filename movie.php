@@ -18,9 +18,4 @@ class Movie
     {
         return $this->title . '<br>';
     }
-
-    public function GetTitle2()
-    {
-        return $this->title . '<br>';
-    }
 }
